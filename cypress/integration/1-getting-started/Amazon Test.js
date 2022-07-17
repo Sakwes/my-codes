@@ -7,8 +7,8 @@ describe('Amazon search Test', ()=> {
 
     //Test Case - Launch Amazon Us webpage
         it('Launch Amazon US', ()=> {
-            cy.visit('www.amazon.com')
-            cy.wait(5000)
+            cy.visit('https://www.amazon.com')
+            cy.wait(8000)
           //  cy.get('Title to be').should('have.text', 'amazon')
 
         })
